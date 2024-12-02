@@ -180,7 +180,7 @@ const config = {
 						items: [
 							{
 								label: " Slack",
-								to: "https://github.com/PalisadoesFoundation/talawa#readme",
+					            to: "https://github.com/PalisadoesFoundation",
 								className: "footer__icon footer__slack",
 							},
 							{
