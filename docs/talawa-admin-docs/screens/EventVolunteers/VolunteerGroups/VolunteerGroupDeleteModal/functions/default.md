@@ -43,4 +43,4 @@ The `deleteVolunteerGroup` mutation is used to perform the deletion operation.
 
 ## Defined in
 
-[src/screens/EventVolunteers/VolunteerGroups/VolunteerGroupDeleteModal.tsx:42](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/screens/EventVolunteers/VolunteerGroups/VolunteerGroupDeleteModal.tsx#L42)
+[src/screens/EventVolunteers/VolunteerGroups/VolunteerGroupDeleteModal.tsx:42](https://github.com/PalisadoesFoundation/talawa-admin/blob/4bef0939e3fab4672bfd3599312195b8557e01a3/src/screens/EventVolunteers/VolunteerGroups/VolunteerGroupDeleteModal.tsx#L42)

@@ -27,4 +27,4 @@ JSX.Element representing a contribution card
 
 ## Defined in
 
-[src/components/OrgContriCards/OrgContriCards.tsx:30](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/OrgContriCards/OrgContriCards.tsx#L30)
+[src/components/OrgContriCards/OrgContriCards.tsx:30](https://github.com/PalisadoesFoundation/talawa-admin/blob/4bef0939e3fab4672bfd3599312195b8557e01a3/src/components/OrgContriCards/OrgContriCards.tsx#L30)

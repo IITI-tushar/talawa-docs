@@ -40,4 +40,4 @@ A JSX element that renders agenda item categories with options to preview, edit,
 
 ## Defined in
 
-[src/components/AgendaCategory/AgendaCategoryContainer.tsx:34](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/AgendaCategory/AgendaCategoryContainer.tsx#L34)
+[src/components/AgendaCategory/AgendaCategoryContainer.tsx:34](https://github.com/PalisadoesFoundation/talawa-admin/blob/4bef0939e3fab4672bfd3599312195b8557e01a3/src/components/AgendaCategory/AgendaCategoryContainer.tsx#L34)

@@ -29,4 +29,4 @@ It displays a form with inputs for pledge details such as amount, currency, date
 
 ## Defined in
 
-[src/screens/UserPortal/Campaigns/PledgeModal.tsx:54](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/screens/UserPortal/Campaigns/PledgeModal.tsx#L54)
+[src/screens/UserPortal/Campaigns/PledgeModal.tsx:54](https://github.com/PalisadoesFoundation/talawa-admin/blob/4bef0939e3fab4672bfd3599312195b8557e01a3/src/screens/UserPortal/Campaigns/PledgeModal.tsx#L54)

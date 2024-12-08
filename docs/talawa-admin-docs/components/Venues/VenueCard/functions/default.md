@@ -36,4 +36,4 @@ JSX.Element - The `VenueCard` component.
 
 ## Defined in
 
-[src/components/Venues/VenueCard.tsx:39](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/Venues/VenueCard.tsx#L39)
+[src/components/Venues/VenueCard.tsx:39](https://github.com/PalisadoesFoundation/talawa-admin/blob/4bef0939e3fab4672bfd3599312195b8557e01a3/src/components/Venues/VenueCard.tsx#L39)

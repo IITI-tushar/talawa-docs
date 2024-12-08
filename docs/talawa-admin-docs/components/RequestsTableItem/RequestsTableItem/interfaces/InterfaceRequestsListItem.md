@@ -16,7 +16,7 @@ Represents a membership request in the requests table.
 
 #### Defined in
 
-[src/components/RequestsTableItem/RequestsTableItem.tsx:17](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/RequestsTableItem/RequestsTableItem.tsx#L17)
+[src/components/RequestsTableItem/RequestsTableItem.tsx:17](https://github.com/PalisadoesFoundation/talawa-admin/blob/4bef0939e3fab4672bfd3599312195b8557e01a3/src/components/RequestsTableItem/RequestsTableItem.tsx#L17)
 
 ***
 
@@ -38,4 +38,4 @@ Represents a membership request in the requests table.
 
 #### Defined in
 
-[src/components/RequestsTableItem/RequestsTableItem.tsx:18](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/RequestsTableItem/RequestsTableItem.tsx#L18)
+[src/components/RequestsTableItem/RequestsTableItem.tsx:18](https://github.com/PalisadoesFoundation/talawa-admin/blob/4bef0939e3fab4672bfd3599312195b8557e01a3/src/components/RequestsTableItem/RequestsTableItem.tsx#L18)

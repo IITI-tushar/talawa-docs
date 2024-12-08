@@ -22,4 +22,4 @@ JSX.Element - The rendered CollapsibleDropdown component.
 
 ## Defined in
 
-[src/components/CollapsibleDropdown/CollapsibleDropdown.tsx:24](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/CollapsibleDropdown/CollapsibleDropdown.tsx#L24)
+[src/components/CollapsibleDropdown/CollapsibleDropdown.tsx:24](https://github.com/PalisadoesFoundation/talawa-admin/blob/4bef0939e3fab4672bfd3599312195b8557e01a3/src/components/CollapsibleDropdown/CollapsibleDropdown.tsx#L24)
