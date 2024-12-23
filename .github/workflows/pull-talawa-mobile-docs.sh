@@ -25,8 +25,8 @@ flutter pub global run dartdoc --output talawa-mobile-docs --format md --exclude
 rm -rf talawa-mobile-docs/widgets_pinned_carousel_widget/CustomCarouselScrollerState/build.md
 rm -rf talawa-mobile-docs/widgets_post_widget/PostContainerState/build.md
 
-# Run the Python script to adjust MDX format for Docusaurus
-python3 .github/workflows/talawa_mobile_md_mdx_format_adjuster.py --directory talawa-mobile-docs
+# DO NOT adjust MDX format for Docusaurus. The script is only suitable for TSDocs
+# python3 .github/workflows/talawa_mobile_md_mdx_format_adjuster.py --directory talawa-mobile-docs
 
 # Navigate back and copy the generated docs
 cd ..
