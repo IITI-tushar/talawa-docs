@@ -32,4 +32,4 @@
 
 ## Defined in
 
-[src/resolvers/Subscription/messageSentToChat.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/039b0f127fb8caa46d57186ab4b3bb27fe150903/src/resolvers/Subscription/messageSentToChat.ts#L7)
+[src/resolvers/Subscription/messageSentToChat.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/4b5c74fd36bcfc2e36f3a06b67d517e865c188be/src/resolvers/Subscription/messageSentToChat.ts#L7)

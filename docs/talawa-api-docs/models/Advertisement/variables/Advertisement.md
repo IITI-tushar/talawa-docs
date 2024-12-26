@@ -6,8 +6,8 @@
 
 # Variable: Advertisement
 
-\> `const` **Advertisement**: `Model`\<[`InterfaceAdvertisement`](../interfaces/InterfaceAdvertisement.md), \{\}, \{\}, \{\}, `Document`\<`unknown`, \{\}, [`InterfaceAdvertisement`](../interfaces/InterfaceAdvertisement.md)\> & [`InterfaceAdvertisement`](../interfaces/InterfaceAdvertisement.md) & `Required`\<\{ `_id`: `string`; \}\>, `any`\>
+\> `const` **Advertisement**: `Model`\<[`InterfaceAdvertisement`](../interfaces/InterfaceAdvertisement.md), `Document`\<`unknown`, \{\}, [`InterfaceAdvertisement`](../interfaces/InterfaceAdvertisement.md)\> & [`InterfaceAdvertisement`](../interfaces/InterfaceAdvertisement.md) & `Required`\<\{ `_id`: `string`; \}\>\>
 
 ## Defined in
 
-[src/models/Advertisement.ts:119](https://github.com/PalisadoesFoundation/talawa-api/blob/039b0f127fb8caa46d57186ab4b3bb27fe150903/src/models/Advertisement.ts#L119)
+[src/models/Advertisement.ts:119](https://github.com/PalisadoesFoundation/talawa-api/blob/4b5c74fd36bcfc2e36f3a06b67d517e865c188be/src/models/Advertisement.ts#L119)

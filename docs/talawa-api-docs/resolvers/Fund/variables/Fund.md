@@ -18,4 +18,4 @@ FundResolvers - The type definition for the resolvers of the Fund fields.
 
 ## Defined in
 
-[src/resolvers/Fund/index.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/039b0f127fb8caa46d57186ab4b3bb27fe150903/src/resolvers/Fund/index.ts#L12)
+[src/resolvers/Fund/index.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/4b5c74fd36bcfc2e36f3a06b67d517e865c188be/src/resolvers/Fund/index.ts#L12)

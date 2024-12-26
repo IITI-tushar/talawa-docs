@@ -56,7 +56,7 @@ node\_modules/@types/express-serve-static-core/index.d.ts:513
 
 ### app
 
-\> **app**: `Application`\<`Record`\<`string`, `any`\>\>
+\> **app**: `Application`
 
 #### Inherited from
 
@@ -491,7 +491,7 @@ node\_modules/@types/express-serve-static-core/index.d.ts:588
 
 #### Defined in
 
-[src/middleware/isAuth.ts:83](https://github.com/PalisadoesFoundation/talawa-api/blob/039b0f127fb8caa46d57186ab4b3bb27fe150903/src/middleware/isAuth.ts#L83)
+[src/middleware/isAuth.ts:83](https://github.com/PalisadoesFoundation/talawa-api/blob/4b5c74fd36bcfc2e36f3a06b67d517e865c188be/src/middleware/isAuth.ts#L83)
 
 ***
 
@@ -875,7 +875,7 @@ node\_modules/@types/node/stream.d.ts:116
 
 ### res?
 
-\> `optional` **res**: `Response`\<`any`, `Record`\<`string`, `any`\>, `number`\>
+\> `optional` **res**: `Response`
 
 After middleware.init executed, Request will contain res and next properties
 See: express/lib/middleware/init.js
@@ -1055,7 +1055,7 @@ node\_modules/@types/express-serve-static-core/index.d.ts:601
 
 #### Defined in
 
-[src/middleware/isAuth.ts:85](https://github.com/PalisadoesFoundation/talawa-api/blob/039b0f127fb8caa46d57186ab4b3bb27fe150903/src/middleware/isAuth.ts#L85)
+[src/middleware/isAuth.ts:85](https://github.com/PalisadoesFoundation/talawa-api/blob/4b5c74fd36bcfc2e36f3a06b67d517e865c188be/src/middleware/isAuth.ts#L85)
 
 ***
 
@@ -1165,7 +1165,7 @@ node\_modules/@types/express-serve-static-core/index.d.ts:655
 
 #### Defined in
 
-[src/middleware/isAuth.ts:84](https://github.com/PalisadoesFoundation/talawa-api/blob/039b0f127fb8caa46d57186ab4b3bb27fe150903/src/middleware/isAuth.ts#L84)
+[src/middleware/isAuth.ts:84](https://github.com/PalisadoesFoundation/talawa-api/blob/4b5c74fd36bcfc2e36f3a06b67d517e865c188be/src/middleware/isAuth.ts#L84)
 
 ***
 
@@ -1639,11 +1639,11 @@ node\_modules/@types/node/stream.d.ts:659
 
 ### \[asyncIterator\]()
 
-\> **\[asyncIterator\]**(): `AsyncIterator`\<`any`, `any`, `any`\>
+\> **\[asyncIterator\]**(): `AsyncIterator`
 
 #### Returns
 
-`AsyncIterator`\<`any`, `any`, `any`\>
+`AsyncIterator`
 
 #### Inherited from
 
@@ -2426,7 +2426,7 @@ node\_modules/@types/node/stream.d.ts:549
 
 ##### stream
 
-`ComposeFnParam` | `T` | `Iterable`\<`T`, `any`, `any`\> | `AsyncIterable`\<`T`, `any`, `any`\>
+`ComposeFnParam` | `T` | `Iterable`\<`T`\> | `AsyncIterable`\<`T`\>
 
 ##### options?
 
@@ -3343,7 +3343,7 @@ node\_modules/@types/node/stream.d.ts:295
 
 ### iterator()
 
-\> **iterator**(`options`?): `AsyncIterator`\<`any`, `any`, `any`\>
+\> **iterator**(`options`?): `AsyncIterator`
 
 The iterator created by this method gives users the option to cancel the destruction
 of the stream if the `for await...of` loop is exited by `return`, `break`, or `throw`,
@@ -3363,7 +3363,7 @@ or exiting a `for await...of` iteration using a `break`, `return`, or `throw` wi
 
 #### Returns
 
-`AsyncIterator`\<`any`, `any`, `any`\>
+`AsyncIterator`
 
 #### Since
 

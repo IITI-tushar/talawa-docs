@@ -24,7 +24,7 @@ The incoming request object. The JWT token is expected in the `Authorization` he
 
 ### res
 
-`Response`\<`any`, `Record`\<`string`, `any`\>\>
+`Response`
 
 The response object. If authentication fails, an HTTP 401 response will be sent.
 
@@ -52,4 +52,4 @@ app.use("/api/protected-route", isAuthMiddleware, (req, res) =\> \{
 
 ## Defined in
 
-[src/middleware/isAuth.ts:110](https://github.com/PalisadoesFoundation/talawa-api/blob/039b0f127fb8caa46d57186ab4b3bb27fe150903/src/middleware/isAuth.ts#L110)
+[src/middleware/isAuth.ts:110](https://github.com/PalisadoesFoundation/talawa-api/blob/4b5c74fd36bcfc2e36f3a06b67d517e865c188be/src/middleware/isAuth.ts#L110)

@@ -22,4 +22,4 @@ The name of the MinIO bucket.
 
 ## Defined in
 
-[src/config/minio/index.ts:47](https://github.com/PalisadoesFoundation/talawa-api/blob/039b0f127fb8caa46d57186ab4b3bb27fe150903/src/config/minio/index.ts#L47)
+[src/config/minio/index.ts:47](https://github.com/PalisadoesFoundation/talawa-api/blob/4b5c74fd36bcfc2e36f3a06b67d517e865c188be/src/config/minio/index.ts#L47)

@@ -41,4 +41,4 @@ An object containing the created advertisement, including:
 
 ## Defined in
 
-[src/resolvers/Mutation/createAdvertisement.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/039b0f127fb8caa46d57186ab4b3bb27fe150903/src/resolvers/Mutation/createAdvertisement.ts#L37)
+[src/resolvers/Mutation/createAdvertisement.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/4b5c74fd36bcfc2e36f3a06b67d517e865c188be/src/resolvers/Mutation/createAdvertisement.ts#L37)

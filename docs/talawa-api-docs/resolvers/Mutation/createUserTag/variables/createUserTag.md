@@ -42,4 +42,4 @@ This function is intended for creating new tags within an organization and inclu
 
 ## Defined in
 
-[src/resolvers/Mutation/createUserTag.ts:46](https://github.com/PalisadoesFoundation/talawa-api/blob/039b0f127fb8caa46d57186ab4b3bb27fe150903/src/resolvers/Mutation/createUserTag.ts#L46)
+[src/resolvers/Mutation/createUserTag.ts:46](https://github.com/PalisadoesFoundation/talawa-api/blob/4b5c74fd36bcfc2e36f3a06b67d517e865c188be/src/resolvers/Mutation/createUserTag.ts#L46)
