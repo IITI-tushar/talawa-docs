@@ -8,7 +8,6 @@
 :root {
   /* Brand colors */
   --brand: #FEBC59;
-  --ifm-color-primary: #31BB6B;
 
   /* Dark theme */
   --dark: #282c34;
@@ -39,15 +38,15 @@
 }
 
 /* Navbar */
-.navbar {
+/* .navbar {
   background-color: #2CDD9B;
   margin-bottom: 4px;
-}
+} */
 
-.navbar__item {
+/* .navbar__item {
   color: black !important;
   font-size: 18px;
-}
+} */
 
 .navbar__brand {
   color: black !important;
@@ -80,9 +79,9 @@
   padding-top: 20px;
 }
 
-.HeaderHero.light {
+/* .HeaderHero.light {
   background-color: #2CDD9B;
-}
+} */
 
 .HeaderHero .TwoColumns .column {
   max-width: initial;
@@ -105,8 +104,8 @@
 }
 
 .HeaderHero .title {
-  font-size: 75px;
-  color: #ffffff;
+  font-size: 3rem;
+  /* color: #ffffff; */
   line-height: 1;
   margin-top: 0;
   margin-bottom: 20px;
@@ -116,20 +115,19 @@
 }
 
 .HeaderHero .tagline {
-  font-size: 36px;
+  font-size: 1.5rem;
   line-height: 1.3;
   font-weight: 500;
-  color: #ffffff;
+  /* color: #ffffff; */
   margin-top: -7px;
   opacity: 1.1;
   left: -250px;
 }
 
 .HeaderHero .description {
-  font-size: 23px;
+  font-size: 1.2rem;
   line-height: 1.3;
-  font-weight: 500;
-  color: #1E2E3C;
+  color: var(--primary-neutral-800);
   opacity: 1.1;
   left: -250px;
 }
@@ -500,23 +498,23 @@
 }
 
 .ActionButton.primary {
-  color: var(--dark);
-  background-color: #FEBC59;
+  color: var(--base-neutral-0);
+  background-color: var(--secondary-blue-500);
   text-wrap: nowrap;
 }
 
 .ActionButton.primary:hover {
-  color: white;
+  background-color: var(--primary-blue-600);
 }
 
 .ActionButton.secondary {
-  background: #31BB6B;
+  color: #1c1e21;
+  background-color: #ebedf0;
   margin-left: 10px;
-  color: var(--dark);
 }
 
 .ActionButton.secondary:hover {
-  color: white;
+  background-color: #c7c7c7;
 }
 
 .ActionButton.secondary::after {
@@ -567,14 +565,14 @@
 
 /* Heading */
 
-.Heading {
+/* .Heading {
   font-size: 25px;
   color: #29db2c;
   line-height: 1.2;
   margin-top: 0;
   margin-bottom: 20px;
   font-weight: 700;
-}
+} */
 
 /* Home page */
 
@@ -592,9 +590,9 @@
   overflow-x: hidden;
 }
 
-.Section+.Section {
+/* .Section+.Section {
   border-top: 1px solid var(--ifm-table-border-color);
-}
+} */
 
 .Section.tint {
   background-color: var(--ifm-menu-color-background-active);
