@@ -33,7 +33,7 @@
   --ifm-blockquote-font-size: 16px;
   --ifm-table-head-color: var(--subtle);
   --ifm-link-hover-decoration: none;
-  --ifm-menu-color-background-active: var(--ifm-hover-overlay);
+
 }
 
 /* Navbar */
@@ -595,7 +595,7 @@
 } */
 
 .Section.tint {
-  background-color: var(--ifm-menu-color-background-active);
+  background-color: var(--ifm-hover-overlay);
 }
 
 .Section.dark {
