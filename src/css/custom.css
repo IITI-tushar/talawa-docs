@@ -26,14 +26,18 @@
   --base-neutral-0: #ffffff;
   --primary-neutral-800: #1f2a37;
   --ifm-menu-color-active:#1e56e3;
-  --ifm-breadcrumb-color-active: var(--ifm-color-primary);
+  --primary-neutral-600:#4d5761;
+  --ifm-breadcrumb-color-active: var(--primary-neutral-600);
   --ifm-link-color:#1e56e3;
+  --ifm-button-background-color: #2e8555;
+  --ifm-button-background-color-dark: #205d3b;
 }
+
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 
 [data-theme="dark"] {
-  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary: #1e56e3;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
@@ -47,6 +51,8 @@
   --secondary-blue-900: #c6d6ff;
   --sidebar-bg-color: #161f36;
   --primary-neutral-800: #9da4ae;
+  --ifm-button-background-color: #25c2a0;
+  --ifm-button-background-color-dark: #2e8555;
 }
 
 /* stylelint-disable docusaurus/copyright-header */
@@ -142,6 +148,7 @@ html[data-theme="dark"] {
   font-size: 0.75rem;
 }
 
+
 h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
   font-size: var(--ifm-h1-font-size);
   margin-bottom: 1.5rem;
@@ -171,7 +178,7 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
   margin-left: 0.25px;
 }
 .navbar__link.active:hover{
-  color: #102b19;
+  color: #102b19 !important;
 }
 .dropdown__link{
   color:#000000
@@ -442,11 +449,15 @@ a {
 }
 
 a:hover {
-  color: #1E3A8A;
+  color: #86a7ef;
 }
 
 .navbar__link:hover,
 .navbar__link--active {
   color: var(--primary-blue-600);
     text-decoration: none;
+}
+
+.dropdown__link:hover {
+  color: #2563EB; 
 }

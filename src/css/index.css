@@ -499,12 +499,13 @@
 
 .ActionButton.primary {
   color: var(--base-neutral-0);
-  background-color: var(--secondary-blue-500);
+  background-color: var(--ifm-button-background-color);
+  border: var(--ifm-button-border-width) solid var(--ifm-button-border-color);
   text-wrap: nowrap;
 }
 
 .ActionButton.primary:hover {
-  background-color: var(--primary-blue-600);
+  background-color: var(--ifm-button-background-color-dark);
 }
 
 .ActionButton.secondary {
