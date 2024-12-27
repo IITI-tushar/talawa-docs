@@ -126,7 +126,7 @@ Information about the transaction log (optional)
 
 #### Defined in
 
-[src/libraries/dbLogger.ts:55](https://github.com/PalisadoesFoundation/talawa-api/blob/4b5c74fd36bcfc2e36f3a06b67d517e865c188be/src/libraries/dbLogger.ts#L55)
+[src/libraries/dbLogger.ts:63](https://github.com/PalisadoesFoundation/talawa-api/blob/5c5b29a0ea487bda8306089fe128f43f3be29f94/src/libraries/dbLogger.ts#L63)
 
 ***
 
@@ -2768,7 +2768,7 @@ node\_modules/mongoose/types/query.d.ts:598
 
 #### Call Signature
 
-\> **paginate**\<`O`\>(`options`?): `Promise`\<`PaginateResult`\<`IfAny`\<`T`, `any`, `Document`\<`unknown`, `O`, `T`\> & `Require_id`\<`T`\>\>\>\>
+\> **paginate**\<`O`\>(`options`?): `Promise`\<`PaginateResult`\<`PaginateDocument`\<`T`, `Record`\<`string`, `never`\>, \{\}, `O`\>\>\>
 
 ##### Type Parameters
 
@@ -2782,7 +2782,7 @@ node\_modules/mongoose/types/query.d.ts:598
 
 ##### Returns
 
-`Promise`\<`PaginateResult`\<`IfAny`\<`T`, `any`, `Document`\<`unknown`, `O`, `T`\> & `Require_id`\<`T`\>\>\>\>
+`Promise`\<`PaginateResult`\<`PaginateDocument`\<`T`, `Record`\<`string`, `never`\>, \{\}, `O`\>\>\>
 
 ##### Inherited from
 
@@ -2790,11 +2790,11 @@ node\_modules/mongoose/types/query.d.ts:598
 
 ##### Defined in
 
-node\_modules/mongoose-paginate-v2/index.d.ts:146
+node\_modules/mongoose-paginate-v2/index.d.ts:140
 
 #### Call Signature
 
-\> **paginate**\<`UserType`, `O`\>(`options`?): `Promise`\<`PaginateResult`\<`IfAny`\<`UserType`, `any`, `Document`\<`unknown`, `O`, `UserType`\> & `Require_id`\<`UserType`\>\>\>\>
+\> **paginate**\<`UserType`, `O`\>(`options`?): `Promise`\<`PaginateResult`\<`PaginateDocument`\<`UserType`, `Record`\<`string`, `never`\>, \{\}, `O`\>\>\>
 
 ##### Type Parameters
 
@@ -2810,7 +2810,7 @@ node\_modules/mongoose-paginate-v2/index.d.ts:146
 
 ##### Returns
 
-`Promise`\<`PaginateResult`\<`IfAny`\<`UserType`, `any`, `Document`\<`unknown`, `O`, `UserType`\> & `Require_id`\<`UserType`\>\>\>\>
+`Promise`\<`PaginateResult`\<`PaginateDocument`\<`UserType`, `Record`\<`string`, `never`\>, \{\}, `O`\>\>\>
 
 ##### Inherited from
 
@@ -2818,11 +2818,11 @@ node\_modules/mongoose-paginate-v2/index.d.ts:146
 
 ##### Defined in
 
-node\_modules/mongoose-paginate-v2/index.d.ts:149
+node\_modules/mongoose-paginate-v2/index.d.ts:143
 
 #### Call Signature
 
-\> **paginate**\<`UserType`\>(`options`?): `Promise`\<`PaginateResult`\<`IfAny`\<`UserType`, `any`, `Document`\<`unknown`, `PaginateOptions`, `UserType`\> & `Require_id`\<`UserType`\>\>\>\>
+\> **paginate**\<`UserType`\>(`options`?): `Promise`\<`PaginateResult`\<`IfAny`\<`UserType`, `any`, `Document`\<`unknown`, \{\}, `UserType`\> & `Require_id`\<`UserType`\>\>\>\>
 
 ##### Type Parameters
 
@@ -2836,7 +2836,7 @@ node\_modules/mongoose-paginate-v2/index.d.ts:149
 
 ##### Returns
 
-`Promise`\<`PaginateResult`\<`IfAny`\<`UserType`, `any`, `Document`\<`unknown`, `PaginateOptions`, `UserType`\> & `Require_id`\<`UserType`\>\>\>\>
+`Promise`\<`PaginateResult`\<`IfAny`\<`UserType`, `any`, `Document`\<`unknown`, \{\}, `UserType`\> & `Require_id`\<`UserType`\>\>\>\>
 
 ##### Inherited from
 
@@ -2844,7 +2844,7 @@ node\_modules/mongoose-paginate-v2/index.d.ts:149
 
 ##### Defined in
 
-node\_modules/mongoose-paginate-v2/index.d.ts:152
+node\_modules/mongoose-paginate-v2/index.d.ts:146
 
 ***
 

@@ -16,7 +16,7 @@ Interface representing a document for an image hash in the database (MongoDB).
 
 #### Defined in
 
-[src/models/ImageHash.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/4b5c74fd36bcfc2e36f3a06b67d517e865c188be/src/models/ImageHash.ts#L9)
+[src/models/ImageHash.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/5c5b29a0ea487bda8306089fe128f43f3be29f94/src/models/ImageHash.ts#L11)
 
 ***
 
@@ -26,7 +26,7 @@ Interface representing a document for an image hash in the database (MongoDB).
 
 #### Defined in
 
-[src/models/ImageHash.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/4b5c74fd36bcfc2e36f3a06b67d517e865c188be/src/models/ImageHash.ts#L11)
+[src/models/ImageHash.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/5c5b29a0ea487bda8306089fe128f43f3be29f94/src/models/ImageHash.ts#L13)
 
 ***
 
@@ -36,7 +36,7 @@ Interface representing a document for an image hash in the database (MongoDB).
 
 #### Defined in
 
-[src/models/ImageHash.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/4b5c74fd36bcfc2e36f3a06b67d517e865c188be/src/models/ImageHash.ts#L10)
+[src/models/ImageHash.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/5c5b29a0ea487bda8306089fe128f43f3be29f94/src/models/ImageHash.ts#L12)
 
 ***
 
@@ -46,7 +46,7 @@ Interface representing a document for an image hash in the database (MongoDB).
 
 #### Defined in
 
-[src/models/ImageHash.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/4b5c74fd36bcfc2e36f3a06b67d517e865c188be/src/models/ImageHash.ts#L12)
+[src/models/ImageHash.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/5c5b29a0ea487bda8306089fe128f43f3be29f94/src/models/ImageHash.ts#L14)
 
 ***
 
@@ -56,4 +56,4 @@ Interface representing a document for an image hash in the database (MongoDB).
 
 #### Defined in
 
-[src/models/ImageHash.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/4b5c74fd36bcfc2e36f3a06b67d517e865c188be/src/models/ImageHash.ts#L13)
+[src/models/ImageHash.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/5c5b29a0ea487bda8306089fe128f43f3be29f94/src/models/ImageHash.ts#L15)

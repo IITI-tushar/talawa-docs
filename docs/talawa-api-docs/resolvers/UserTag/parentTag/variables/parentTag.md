@@ -27,4 +27,4 @@ A promise that resolves to the user tag document found in the database. This doc
 
 ## Defined in
 
-[src/resolvers/UserTag/parentTag.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/4b5c74fd36bcfc2e36f3a06b67d517e865c188be/src/resolvers/UserTag/parentTag.ts#L16)
+[src/resolvers/UserTag/parentTag.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/5c5b29a0ea487bda8306089fe128f43f3be29f94/src/resolvers/UserTag/parentTag.ts#L16)

@@ -29,7 +29,7 @@ third argument.
 
 ### Defined in
 
-[src/app.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/4b5c74fd36bcfc2e36f3a06b67d517e865c188be/src/app.ts#L19)
+[src/app.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/5c5b29a0ea487bda8306089fe128f43f3be29f94/src/app.ts#L21)
 
 ## Call Signature
 
@@ -55,4 +55,4 @@ third argument.
 
 ### Defined in
 
-[src/app.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/4b5c74fd36bcfc2e36f3a06b67d517e865c188be/src/app.ts#L19)
+[src/app.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/5c5b29a0ea487bda8306089fe128f43f3be29f94/src/app.ts#L21)
