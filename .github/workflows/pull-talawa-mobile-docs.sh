@@ -26,7 +26,7 @@ rm -rf talawa-mobile-docs/widgets_pinned_carousel_widget/CustomCarouselScrollerS
 rm -rf talawa-mobile-docs/widgets_post_widget/PostContainerState/build.md
 
 # DO NOT adjust MDX format for Docusaurus. The script is only suitable for TSDocs
-# python3 .github/workflows/talawa_mobile_md_mdx_format_adjuster.py --directory talawa-mobile-docs
+python3 .github/workflows/talawa_mobile_md_mdx_format_adjuster.py --directory talawa-mobile-docs
 
 # Navigate back and copy the generated docs
 cd ..
