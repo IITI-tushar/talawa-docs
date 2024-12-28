@@ -96,7 +96,7 @@ const config = {
 		({
 			docs: {
 				sidebar: {
-					hideable: true,
+					hideable: false,
 				},
 			},
 			navbar: {
@@ -169,7 +169,7 @@ const config = {
 			},
 			colorMode: {
 				defaultMode: "light",
-				disableSwitch: true,
+				disableSwitch: false,
 				respectPrefersColorScheme: false,
 			},
 			footer: {
