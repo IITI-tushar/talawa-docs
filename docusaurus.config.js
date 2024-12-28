@@ -108,50 +108,25 @@ const config = {
 				},
 				items: [
 					{
-						to: "docs-mobile-user/",
-						activeBasePath: "docs-mobile-user",
-						label: "Mobile Guide",
-						position: "left",
-					},
-					{
-						to: "docs-web-user/",
-						activeBasePath: "docs-web-user",
-						label: "Web Guide",
-						position: "left",
-					},
-					{
-						to: "docs-admin/",
-						activeBasePath: "docs-admin",
-						label: "Admin Guide",
-						position: "left",
-					},
-					{
 						to: 'docs/',
 						activeBasePath: 'docs',
-						label: 'Developer Guide',
-						position: 'left',
-						items: [
-						  {
-							label: 'General',
-							to: "docs/",
-						    activeBasePath: "docs",
-						  },
-						  {
-							label: 'Talawa API',
-							to: "docs/talawa-api-docs/modules",
-							activeBasePath: "docs",
-						  },
-						  {
-							label: 'Talawa Flutter Docs',
-							to: "docs/talawa-mobile-docs",
-							activeBasePath: "docs",
-						  },
-						  {
-							label: 'Talawa Admin',
-							to: "docs/talawa-admin-docs/modules",
-							activeBasePath: "docs",
-						  },
-						],
+						label: "General",
+						position: "left",
+					},
+					{
+						label: "Mobile",
+						position: "left",
+						href:"https://docs-mobile.talawa.io/"
+					},
+					{
+						label: "Admin",
+						position: "left",
+						href:"https://docs-admin.talawa.io/"
+					},
+					{
+						label: "API",
+						position: "left",
+						href:"https://docs-api.talawa.io/"
 					},
 					{
 						to: "https://github.com/PalisadoesFoundation",
