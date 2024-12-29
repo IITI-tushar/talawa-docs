@@ -34,7 +34,8 @@
   --ifm-hover-overlay: rgba(0, 0, 0, 0.05);
   --brand-color: black;
   --next-prev-border-color: #e5e7eb;
-  --ifm-color-emphasis-100: #F4F8FB
+  --ifm-color-emphasis-100: #F4F8FB;
+  --ifm-color-emphasis-0: #fff;
 
   /* New */
 }
@@ -147,6 +148,7 @@ html[data-theme="dark"] {
   --primary-neutral-600: #c4c4c4;
   --next-prev-border-color: #293441;
   --ifm-color-emphasis-100: #1D1E30;
+  --ifm-color-emphasis-0: #111f3b;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
@@ -494,6 +496,7 @@ h1 {
 .Heading {
   font-size: 1.5rem;
   font-weight: 700;
+  text-align: center;
 }
 
 h1,
@@ -527,62 +530,153 @@ a:hover {
 
 /* New for Cards */
 
-.homepage__container {
+.my-svg-icon path {
+  fill: var(--secondary-blue-900);
+}
+
+.card__container {
   align-items: center;
   flex-direction: column;
   margin: 0 3rem;
 }
 
-.about__cards {
-  display: grid;
-      gap: 1rem;
-      grid-template-columns: repeat(2, 1fr);
-}
-
-.about__card {
-    align-items: center;
-    background-color: var(--ifm-color-emphasis-100);
-    border-radius: 15px;
-    box-shadow: var(--ifm-navbar-shadow);
-    display: grid;
-    grid-template-columns: .3fr 1fr;
-    justify-content: center;
-    padding: 1rem;
-    text-align: center;
-}
-
-.about__image {
-  margin: 0 auto;
-  width: 4rem;
-}
-
-.about__description {
+.card__description {
   font-size: .8rem;
   margin: 0;
   padding-bottom: 1rem;
   text-align: center;
 }
+.card__general{
+  align-items: center;
+    background-color: var(--ifm-color-emphasis-100);
+    border-radius: 15px;
+    box-shadow: var(--ifm-navbar-shadow);
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+.card__general:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
 
 @media only screen and (max-width: 960px) {
-  .about__cards {
-      grid-template-columns: repeat(1, 1fr);
-  }
-  .about__card {
-    grid-template-columns: 1fr;
-    text-align: left;
-}
-.homepage__container {
+.card__container {
   margin: 0 2rem;
 }
-.about__description {
+.card__description {
   padding-bottom: 1rem;
   text-align: left;
 }
-.about__image {
+
+}
+
+/* Management Feature Card */
+
+
+.management__cards {
+  display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.management__card {
+    display: grid;
+    grid-template-columns: .3fr 1fr;
+}
+
+.management__image {
+  margin: 0 auto;
+  width: 4rem;
+}
+
+
+
+@media only screen and (max-width: 960px) {
+  .management__cards {
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .management__card {
+    grid-template-columns: 1fr;
+    text-align: left;
+}
+.management__image {
   display: none;
 }
 }
 
-.my-svg-icon path {
-  fill: var(--secondary-blue-900);
+
+
+/* organization-feature-card*/
+
+
+.organization-feature-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  
+}
+
+
+.organization-feature-card {
+  max-width: 320px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.organization-feature-card:hover {
+  transform: translateY(-5px);
+}
+
+
+.organization-feature-card__footer .organization-feature-card__button {
+  background: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.organization-feature-card__footer .organization-feature-card__button:hover {
+  background: #0056b3;
+}
+
+/* Variants for Each Card */
+.organization-feature-card--open-source {
+  border-left: 4px solid #28a745; /* Green */
+}
+
+.organization-feature-card--mobile-app {
+  border-left: 4px solid #ffc107; /* Yellow */
+}
+
+.organization-feature-card--admin-portal {
+  border-left: 4px solid #17a2b8; /* Teal */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .organization-feature-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .organization-feature-card {
+    max-width: 100%;
+  }
+}
+
+/* Wide Card */
+
+.card__wide{
+  display: flex;
+    gap: calc(4rem + 2px);
+    padding: 1.5rem;
+    margin: 2rem;
 }

@@ -4,7 +4,7 @@ import Section from "../../utils/Section";
 // import TwoColumns from "../../utils/TwoColumns";
 // import textcontent from "../../utils/textcontent";
 // import useBaseUrl from "@docusaurus/useBaseUrl";
-import AboutCards from "../../utils/AboutCards";
+import AboutCards from "../../utils/ManagementFeaturesCard";
 
 interface ThirdPanelProps {}
 
