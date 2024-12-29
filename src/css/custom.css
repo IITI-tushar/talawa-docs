@@ -34,6 +34,7 @@
   --ifm-hover-overlay: rgba(0, 0, 0, 0.05);
   --brand-color: black;
   --next-prev-border-color: #e5e7eb;
+  --ifm-color-emphasis-100: #F4F8FB
 
   /* New */
 }
@@ -145,6 +146,7 @@ html[data-theme="dark"] {
   --brand-color: white;
   --primary-neutral-600: #c4c4c4;
   --next-prev-border-color: #293441;
+  --ifm-color-emphasis-100: #1D1E30;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
@@ -521,4 +523,66 @@ a {
 
 a:hover {
   color: #86a7ef;
+}
+
+/* New for Cards */
+
+.homepage__container {
+  align-items: center;
+  flex-direction: column;
+  margin: 0 3rem;
+}
+
+.about__cards {
+  display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.about__card {
+    align-items: center;
+    background-color: var(--ifm-color-emphasis-100);
+    border-radius: 15px;
+    box-shadow: var(--ifm-navbar-shadow);
+    display: grid;
+    grid-template-columns: .3fr 1fr;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+.about__image {
+  margin: 0 auto;
+  width: 4rem;
+}
+
+.about__description {
+  font-size: .8rem;
+  margin: 0;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 960px) {
+  .about__cards {
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .about__card {
+    grid-template-columns: 1fr;
+    text-align: left;
+}
+.homepage__container {
+  margin: 0 2rem;
+}
+.about__description {
+  padding-bottom: 1rem;
+  text-align: left;
+}
+.about__image {
+  display: none;
+}
+}
+
+.my-svg-icon path {
+  fill: var(--secondary-blue-900);
 }
