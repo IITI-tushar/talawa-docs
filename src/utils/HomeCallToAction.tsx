@@ -7,14 +7,21 @@ interface HomeCallToActionProps {}
   return (
     <>
       <ActionButton
-        type="primary"
+        type="secondary"
         href="https://github.com/PalisadoesFoundation"
-        target="_self"
         buttonClassName="custom-button"
       >
         Learn More
       </ActionButton>
-      <ActionButton type="secondary" href="/docs-mobile-user/" target="_self">
+      <ActionButton
+        type="primary"
+        href="/docs"
+        target="_self"
+        buttonClassName="custom-button"
+      >
+        Introduction
+      </ActionButton>
+      {/* <ActionButton type="secondary" href="/docs-mobile-user/" target="_self">
         Mobile
       </ActionButton>
       <ActionButton type="secondary" href="/docs-web-user/" target="_self">
@@ -25,7 +32,7 @@ interface HomeCallToActionProps {}
       </ActionButton>
       <ActionButton type="secondary" href="/docs/" target="_self">
         Devs
-      </ActionButton>
+      </ActionButton> */}
     </>
   );
 };
