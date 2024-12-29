@@ -126,6 +126,10 @@ Mapping between all available schema types and the resolvers parents
 
 \> **ChatMessage**: [`InterfaceChatMessage`](../../../models/ChatMessage/interfaces/InterfaceChatMessage.md)
 
+### ChatWhereInput
+
+\> **ChatWhereInput**: [`ChatWhereInput`](ChatWhereInput.md)
+
 ### CheckIn
 
 \> **CheckIn**: [`InterfaceCheckIn`](../../../models/CheckIn/interfaces/InterfaceCheckIn.md)
@@ -241,6 +245,10 @@ Mapping between all available schema types and the resolvers parents
 ##### userErrors
 
 \> **userErrors**: [`ResolversParentTypes`](ResolversParentTypes.md)\[`"CreateCommentError"`\][]
+
+### createGroupChatInput
+
+\> **createGroupChatInput**: [`CreateGroupChatInput`](CreateGroupChatInput.md)
 
 ### CreateMemberError
 
@@ -722,6 +730,14 @@ Mapping between all available schema types and the resolvers parents
 
 \> **UpdateAgendaSectionInput**: [`UpdateAgendaSectionInput`](UpdateAgendaSectionInput.md)
 
+### UpdateChatInput
+
+\> **UpdateChatInput**: [`UpdateChatInput`](UpdateChatInput.md)
+
+### UpdateChatMessageInput
+
+\> **UpdateChatMessageInput**: [`UpdateChatMessageInput`](UpdateChatMessageInput.md)
+
 ### UpdateCommunityInput
 
 \> **UpdateCommunityInput**: [`UpdateCommunityInput`](UpdateCommunityInput.md)
@@ -958,4 +974,4 @@ Mapping between all available schema types and the resolvers parents
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:3675](https://github.com/PalisadoesFoundation/talawa-api/blob/5c5b29a0ea487bda8306089fe128f43f3be29f94/src/types/generatedGraphQLTypes.ts#L3675)
+[src/types/generatedGraphQLTypes.ts:3735](https://github.com/PalisadoesFoundation/talawa-api/blob/3a5276aff43f5de4f7fab3ec9683a420dcdc7a06/src/types/generatedGraphQLTypes.ts#L3735)

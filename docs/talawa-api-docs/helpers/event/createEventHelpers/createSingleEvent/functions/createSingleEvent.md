@@ -6,7 +6,7 @@
 
 # Function: createSingleEvent()
 
-\> **createSingleEvent**(`args`, `creatorId`, `organizationId`, `session`): `Promise`\<[`InterfaceEvent`](../../../../../models/Event/interfaces/InterfaceEvent.md)\>
+\> **createSingleEvent**(`args`, `creatorId`, `organizationId`, `session`, `chat`): `Promise`\<[`InterfaceEvent`](../../../../../models/Event/interfaces/InterfaceEvent.md)\>
 
 Creates a single non-recurring event.
 
@@ -36,6 +36,10 @@ The ID of the organization to which the event belongs.
 
 The MongoDB client session for transactional operations.
 
+### chat
+
+`null` | [`InterfaceChat`](../../../../../models/Chat/interfaces/InterfaceChat.md)
+
 ## Returns
 
 `Promise`\<[`InterfaceEvent`](../../../../../models/Event/interfaces/InterfaceEvent.md)\>
@@ -59,4 +63,4 @@ This function follows these steps:
 
 ## Defined in
 
-[src/helpers/event/createEventHelpers/createSingleEvent.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/5c5b29a0ea487bda8306089fe128f43f3be29f94/src/helpers/event/createEventHelpers/createSingleEvent.ts#L29)
+[src/helpers/event/createEventHelpers/createSingleEvent.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/3a5276aff43f5de4f7fab3ec9683a420dcdc7a06/src/helpers/event/createEventHelpers/createSingleEvent.ts#L29)

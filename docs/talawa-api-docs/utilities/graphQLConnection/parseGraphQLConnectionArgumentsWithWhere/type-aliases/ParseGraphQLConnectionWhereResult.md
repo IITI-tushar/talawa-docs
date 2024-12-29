@@ -16,4 +16,4 @@ This is typescript type of the object returned from callback function `parseWher
 
 ## Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/5c5b29a0ea487bda8306089fe128f43f3be29f94/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts#L15)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/3a5276aff43f5de4f7fab3ec9683a420dcdc7a06/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts#L15)

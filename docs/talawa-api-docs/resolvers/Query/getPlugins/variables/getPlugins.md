@@ -16,4 +16,4 @@ An object that contains a list of plugins.
 
 ## Defined in
 
-[src/resolvers/Query/getPlugins.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/5c5b29a0ea487bda8306089fe128f43f3be29f94/src/resolvers/Query/getPlugins.ts#L8)
+[src/resolvers/Query/getPlugins.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/3a5276aff43f5de4f7fab3ec9683a420dcdc7a06/src/resolvers/Query/getPlugins.ts#L8)

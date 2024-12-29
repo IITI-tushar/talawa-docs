@@ -36,4 +36,4 @@ S3Client - an instance of the AWS S3 client configured for MinIO storage.
 
 ## Defined in
 
-[src/config/minio/index.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/5c5b29a0ea487bda8306089fe128f43f3be29f94/src/config/minio/index.ts#L27)
+[src/config/minio/index.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/3a5276aff43f5de4f7fab3ec9683a420dcdc7a06/src/config/minio/index.ts#L27)
