@@ -16,9 +16,11 @@ const OrganizationFeatureCard = () => {
             </p>
           </div>
           <div className="organization-feature-card__footer">
+            <a href="https://github.com/PalisadoesFoundation">
             <button className="organization-feature-card__button">
               Learn More
             </button>
+            </a>
           </div>
         </div>
 

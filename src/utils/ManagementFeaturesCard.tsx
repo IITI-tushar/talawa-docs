@@ -55,7 +55,7 @@ const ManagementFeaturesCard = () => {
             </div>
             <div>
             <h3 className="management__header">Intuitive design</h3>
-            <p className="management__description">
+            <p className="card__description">
             Our intuitive design helps streamline work processes and increases adoption so everyone can benefit
             </p>
           </div>

@@ -12,7 +12,7 @@ function FourthPanelProps({ className }: FourthPanelProps) {
   return (
     // background="tint" removed
 
-    <Section className={`NativeDevelopment ${className}`}>
+    <Section className={`NativeDevelopment ${className} fourth-panel`}>
       <div className="card__general card__wide">
         <TwoColumns
           reverse

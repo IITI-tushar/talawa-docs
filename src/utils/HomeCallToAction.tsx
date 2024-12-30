@@ -7,14 +7,14 @@ interface HomeCallToActionProps {}
   return (
     <>
       <ActionButton
-        type="secondary"
+        type="primary"
         href="https://github.com/PalisadoesFoundation"
         buttonClassName="custom-button"
       >
         Learn More
       </ActionButton>
       <ActionButton
-        type="primary"
+        type="secondary"
         href="/docs"
         target="_self"
         buttonClassName="custom-button"
