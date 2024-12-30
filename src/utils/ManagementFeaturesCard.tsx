@@ -2,7 +2,7 @@ import React from "react";
 
 const ManagementFeaturesCard = () => {
   return (
-    <div className="card__container">
+    <div className="card__container card__wide">
       <h2 className="Heading">
       More Effective Management
       </h2>

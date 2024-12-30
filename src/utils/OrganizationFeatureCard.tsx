@@ -5,7 +5,7 @@ const OrganizationFeatureCard = () => {
     <div className="card__container">
       <h2 className="Heading">Easy Community Organization Management</h2>
       <div className="organization-feature-cards">
-        <div className="organization-feature-card card__general organization-feature-card--open-source">
+        <div className="organization-feature-card card__general">
           <div className="organization-feature-card__header">
             <h3>Open-Source Software for Organizations</h3>
           </div>
@@ -22,7 +22,7 @@ const OrganizationFeatureCard = () => {
           </div>
         </div>
 
-        <div className="organization-feature-card card__general organization-feature-card--mobile-app">
+        <div className="organization-feature-card card__general">
           <div className="organization-feature-card__header">
             <h3>Connect Your Community with Our Mobile App</h3>
           </div>
@@ -39,7 +39,7 @@ const OrganizationFeatureCard = () => {
           </div>
         </div>
 
-        <div className="organization-feature-card card__general organization-feature-card--admin-portal">
+        <div className="organization-feature-card card__general">
           <div className="organization-feature-card__header">
             <h3>Simplify Management with Our Admin Portal</h3>
           </div>

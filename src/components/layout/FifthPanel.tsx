@@ -8,7 +8,8 @@ import AppFeaturesCard from "../../utils/AppFeaturesCard";
  function FifthPanel() {
   return (
     <Section className="fifth-panel">
-      <div className="custom-panel card__general card__wide">
+      <AppFeaturesCard/>
+      {/* <div className="custom-panel">
         <div className="wrapper">
           <TwoColumns
             columnOne={
@@ -30,7 +31,7 @@ import AppFeaturesCard from "../../utils/AppFeaturesCard";
             }
           />
         </div>
-      </div>
+      </div> */}
     </Section>
   );
 }
