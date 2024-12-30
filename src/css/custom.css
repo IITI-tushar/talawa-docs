@@ -854,3 +854,9 @@ a:hover {
   padding: 2rem;
   max-width: 70vw;
 }
+
+/* Hide external link svg on Navbar */
+
+.iconExternalLink_nPIU {
+  display: none !important;
+}

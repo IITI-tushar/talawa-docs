@@ -17,9 +17,9 @@ const OrganizationFeatureCard = () => {
           </div>
           <div className="organization-feature-card__footer">
             <a href="https://github.com/PalisadoesFoundation">
-            <button className="organization-feature-card__button">
-              Learn More
-            </button>
+              <button className="organization-feature-card__button">
+                Learn More
+              </button>
             </a>
           </div>
         </div>
@@ -52,9 +52,11 @@ const OrganizationFeatureCard = () => {
             </p>
           </div>
           <div className="organization-feature-card__footer">
-            <button className="organization-feature-card__button">
-              Get Started
-            </button>
+            <a href="https://docs-admin.talawa.io/" rel="noopener noreferrer">
+              <button className="organization-feature-card__button">
+                Get Started
+              </button>
+            </a>
           </div>
         </div>
       </div>
