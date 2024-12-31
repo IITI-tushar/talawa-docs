@@ -624,9 +624,9 @@ a:hover {
   .card__description {
     padding-bottom: 1rem;
   }
-  .card__general img {
+  /* .card__general img {
     display: none;
-  }
+  } */
   /* .Heading {
     text-align: left;
   } */
@@ -814,8 +814,9 @@ a:hover {
 
 .participation-feature-card {
   display: flex;
+  flex-direction: column;
   padding: 4rem;
-  gap: 5rem;
+  gap: 2rem;
 }
 .participation-feature-card__body {
   flex: 1;
@@ -831,11 +832,12 @@ a:hover {
 }
 
 @media (max-width: 996px) {
-  .participation-feature-card__image {
-    display: none;
-  }
+
   .participation-feature-card {
-    padding: 1rem;
+    padding: 2rem;
+  }
+  .participation-feature-card__image{
+    width: 60vw;
   }
 }
 
@@ -864,4 +866,51 @@ a:hover {
 
 .iconExternalLink_nPIU {
   display: none !important;
+}
+
+/* Responsiveness for wide screens */
+
+
+@media only screen and (min-width: 1200px) {
+  
+}
+
+/* Responsiveness for tablets */
+
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .ActionButton {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    white-space: nowrap;
+  }
+
+  .ActionButton.secondary {
+    margin-top: 1rem;
+    margin-left: auto;
+  }
+  .HeaderHero .column.first {
+    display: flex;
+    justify-content: center;
+  }
+
+  .HeaderHero .column.last {
+    text-align: center;
+  }
+
+  /* New */
+
+  .custom-image {
+    width: 80%;
+    padding-top: 6rem;
+  }
+
+  /* Section 8 */
+  .EightPanel .column{
+    padding:0 !important;
+  }
+  .EightPanel .column li{
+    width: 15rem;
+    margin: auto;
+   }
 }
