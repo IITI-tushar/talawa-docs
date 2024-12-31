@@ -766,7 +766,7 @@ a:hover {
   text-align: left;
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1199px) {
   .app-feature-card__image {
     display: none;
   }
@@ -853,6 +853,13 @@ a:hover {
 .EightPanel .TwoColumns{
   padding: 2rem;
   max-width: 70vw;
+}
+
+@media (max-width: 996px) {
+  .EightPanel .TwoColumns{
+    padding: 0;
+    max-width: auto;
+  }
 }
 
 /* Hide external link svg on Navbar */
