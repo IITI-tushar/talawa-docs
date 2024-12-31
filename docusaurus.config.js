@@ -65,6 +65,15 @@ const config = {
         sidebarPath: require.resolve("./sidebar-admin.js"),
       },
     ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "apk",
+        path: "docs-talawa-apk",
+        routeBasePath: "docs-talawa-apk",
+        sidebarPath: undefined,
+      },
+    ],
   ],
   presets: [
     [
@@ -109,7 +118,7 @@ const config = {
         },
         items: [
           {
-            to: "docs/",
+            to: "/",
             activeBasePath: "docs",
             label: "General",
             position: "left",
