@@ -558,7 +558,6 @@ a:hover {
 }
 
 .card__general p {
-  text-align: left;
   padding-left: 1rem;
 }
 
@@ -624,14 +623,13 @@ a:hover {
   }
   .card__description {
     padding-bottom: 1rem;
-    text-align: left;
   }
   .card__general img {
     display: none;
   }
-  .Heading {
+  /* .Heading {
     text-align: left;
-  }
+  } */
 }
 
 /* Section - 2 organization-feature-card*/
@@ -762,9 +760,9 @@ a:hover {
   align-items: center;
 }
 
-.app-feature-card__body * {
+/* .app-feature-card__body * {
   text-align: left;
-}
+} */
 
 @media only screen and (max-width: 1199px) {
   .app-feature-card__image {
@@ -802,6 +800,7 @@ a:hover {
   font-size: 0.8rem;
   margin: 0;
   padding-bottom: 1rem;
+  text-align: center;
 }
 
 @media (max-width: 996px) {
@@ -817,7 +816,6 @@ a:hover {
   display: flex;
   padding: 4rem;
   gap: 5rem;
-  text-align: justify;
 }
 .participation-feature-card__body {
   flex: 1;

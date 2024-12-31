@@ -394,7 +394,6 @@
   .SixthPanel .column.last {
     width: 100%;
     padding: 0;
-    background-color: var(--dark);
     height: 28rem;
     overflow-y: scroll;
   }
