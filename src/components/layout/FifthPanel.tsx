@@ -3,11 +3,13 @@ import  Section  from "../../utils/Section";
 import  TwoColumns  from "../../utils/TwoColumns";
 import  TextColumn  from "../../utils/TextColumn";
 import  textcontent  from "../../utils/textcontent";
+import AppFeaturesCard from "../../utils/AppFeaturesCard";
 
  function FifthPanel() {
   return (
     <Section className="fifth-panel">
-      <div className="custom-panel">
+      <AppFeaturesCard/>
+      {/* <div className="custom-panel">
         <div className="wrapper">
           <TwoColumns
             columnOne={
@@ -29,7 +31,7 @@ import  textcontent  from "../../utils/textcontent";
             }
           />
         </div>
-      </div>
+      </div> */}
     </Section>
   );
 }

@@ -11,7 +11,8 @@ interface SixthPanelProps {}
   const { sixthPanel, codeExample } = textcontent;
 
   return (
-    <Section className="SixthPanel" background="tint">
+    // background="tint" removed
+    <Section className="SixthPanel" >
       <TwoColumns
         columnOne={
           <TextColumn

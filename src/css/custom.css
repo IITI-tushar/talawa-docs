@@ -34,7 +34,8 @@
   --ifm-hover-overlay: rgba(0, 0, 0, 0.05);
   --brand-color: black;
   --next-prev-border-color: #e5e7eb;
-
+  --ifm-color-emphasis-100: #f4f8fb;
+  --ifm-color-emphasis-0: #fff;
   /* New */
 }
 
@@ -145,6 +146,8 @@ html[data-theme="dark"] {
   --brand-color: white;
   --primary-neutral-600: #c4c4c4;
   --next-prev-border-color: #293441;
+  --ifm-color-emphasis-100: #1d1e30;
+  --ifm-color-emphasis-0: #111f3b;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
@@ -492,6 +495,7 @@ h1 {
 .Heading {
   font-size: 1.5rem;
   font-weight: 700;
+  text-align: center !important;
 }
 
 h1,
@@ -521,4 +525,345 @@ a {
 
 a:hover {
   color: #86a7ef;
+}
+
+/* New for Cards */
+
+.my-svg-icon path {
+  fill: var(--secondary-blue-900);
+}
+
+.card__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 3rem;
+  gap: 2rem;
+}
+
+.card__description {
+  font-size: 0.8rem;
+  margin: 0;
+  padding-bottom: 1rem;
+  /* text-align: center; */
+}
+.card__general {
+  align-items: center;
+  background-color: var(--ifm-color-emphasis-100);
+  border-radius: 15px;
+  box-shadow: var(--ifm-navbar-shadow);
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card__general p {
+  text-align: left;
+  padding-left: 1rem;
+}
+
+/* Wide Card */
+
+.card__wide {
+  display: flex;
+  gap: calc(2rem + 2px);
+  padding: 1.5rem 0;
+  margin: 0 10rem;
+}
+
+.card__wide ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card__wide ul > li {
+  margin: 10px 0;
+  position: relative;
+  text-align: left;
+  padding-left: 25px;
+}
+
+.card__wide ul > li::before {
+  content: "✦";
+  font-size: 1 rem;
+  background: linear-gradient(45deg, #97aaff, #8dbaff, #004c8c, #00bfff);
+  background-size: 400% 400%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: moveGradient 5s ease infinite;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media (max-width: 996px) {
+  .fourth-panel > .card__wide {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .card__container,
+  .card__wide {
+    margin: 0 2rem !important;
+  }
+  .card__description {
+    padding-bottom: 1rem;
+    text-align: left;
+  }
+  .card__general img {
+    display: none;
+  }
+  .Heading {
+    text-align: left;
+  }
+}
+
+/* Section - 2 organization-feature-card*/
+
+.organization-feature-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.organization-feature-card {
+  max-width: 320px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.organization-feature-card:hover {
+  border: 1px solid rgb(200, 200, 200);
+}
+
+.organization-feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.organization-feature-card__footer .organization-feature-card__button {
+  background: var(--secondary-blue-500);
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.organization-feature-card__footer .organization-feature-card__button:hover {
+  background: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .organization-feature-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .organization-feature-card {
+    max-width: 100%;
+  }
+}
+
+/* Section- 3 Management Feature Card */
+
+.management__cards {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.management__card {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.management__image {
+  margin: 0 auto;
+  width: 4rem;
+}
+
+@media only screen and (max-width: 960px) {
+  .management__cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+  }
+  .management__card {
+    grid-template-columns: 1fr;
+    text-align: left;
+    padding: 0;
+  }
+  .management__image {
+    display: none;
+  }
+}
+
+/* Section 4 - native development */
+
+.fourth-panel > .card__wide {
+  height: 70vh;
+  align-items: center;
+}
+
+/* Overriding blur during animation as its causing bad ux */
+
+.fourth-panel-image {
+  filter: none !important;
+  opacity: 1 !important;
+  /* transform: none !important; */
+}
+
+/* Section 5 - App Card  */
+
+.app-feature-card {
+  display: flex;
+  flex-direction: row;
+  padding: 4rem;
+  gap: 5rem;
+  height: 60vh;
+}
+.app-feature-card__image {
+  flex: 1;
+  width: 100%;
+}
+.app-feature-card__image img {
+  height: 40vh;
+}
+
+.app-feature-card__body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  align-items: center;
+}
+
+.app-feature-card__body * {
+  text-align: left;
+}
+
+@media only screen and (max-width: 1199px) {
+  .app-feature-card__image {
+    display: none;
+  }
+  .app-feature-card {
+    padding: 0 1rem;
+    height: auto;
+  }
+
+  .fifth-panel .card__wide {
+    align-items: center;
+    background-color: var(--ifm-color-emphasis-100);
+    border-radius: 15px;
+    box-shadow: var(--ifm-navbar-shadow);
+  }
+  .app-feature-card__body {
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0 1.25rem;
+  }
+
+  .fifth-panel {
+    min-height: fit-content !important;
+  }
+}
+
+/* Section - 6 */
+
+.SixthPanel .TwoColumns {
+  grid-template-columns: 2fr 3fr;
+}
+
+.SixthPanel .left div {
+  font-size: 0.8rem;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 996px) {
+  .SixthPanel .TwoColumns {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Section 7 - Participation-feature-card */
+
+.participation-feature-card {
+  display: flex;
+  padding: 4rem;
+  gap: 5rem;
+  text-align: justify;
+}
+.participation-feature-card__body {
+  flex: 1;
+}
+.participation-feature-card__image {
+  flex: 1;
+}
+.participation-feature-card__body img {
+  float: left;
+  width: 56px;
+  height: 56px;
+  margin-right: 20px;
+}
+
+@media (max-width: 996px) {
+  .participation-feature-card__image {
+    display: none;
+  }
+  .participation-feature-card {
+    padding: 1rem;
+  }
+}
+
+/* Section-8 */
+
+.EightPanel p{
+  font-size: 0.8rem;
+  margin: 0;
+  padding-bottom: 1rem;
+  padding-left: 0;
+}
+
+.EightPanel .TwoColumns{
+  padding: 2rem;
+  max-width: 70vw;
+}
+
+@media (max-width: 996px) {
+  .EightPanel .TwoColumns{
+    padding: 0;
+    max-width: auto;
+  }
+}
+
+/* Hide external link svg on Navbar */
+
+.iconExternalLink_nPIU {
+  display: none !important;
 }
