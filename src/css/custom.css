@@ -691,6 +691,7 @@ a:hover {
   }
   .organization-feature-card {
     max-width: 100%;
+    width: 100%;
   }
 }
 
