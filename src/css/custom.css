@@ -708,6 +708,10 @@ a:hover {
   grid-template-columns: 0.3fr 1fr;
   background-color: transparent;
   box-shadow: none;
+  text-align: left;
+}
+.management__header{
+  padding-left: 1rem;
 }
 
 .management__image {
@@ -958,4 +962,14 @@ a:hover {
     overflow: hidden;
   }
 
+}
+
+/* Styles for screens larger than 1440px */
+
+@media (min-width: 1440px) {
+  .card__description, .SixthPanel .left div, .EightPanel p{
+    font-size: 1rem;
+  }
+
+  
 }
