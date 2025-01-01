@@ -845,6 +845,11 @@ a:hover {
 .participation-feature-card__image {
   flex: 1;
 }
+
+.participation-feature-card__image img{
+  width: 40vw;
+  max-width: 500px;
+}
 .participation-feature-card__body img {
   float: left;
   width: 56px;
@@ -970,6 +975,11 @@ a:hover {
     display: flex;
     justify-items: center;
     padding-left: 0 !important;
+  }
+
+  /* Section 7 - Participation-feature-card */
+  .participation-feature-card__image img{
+    width: 50vw;
   }
 }
 
