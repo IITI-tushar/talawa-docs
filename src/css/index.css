@@ -650,6 +650,7 @@
   .TwoColumns {
     width: 80vw;
     margin: 0 auto;
+    max-width: 900px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "first last";
   }

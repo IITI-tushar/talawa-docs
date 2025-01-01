@@ -945,8 +945,15 @@ a:hover {
 
 @media only screen and (min-width: 1200px) {
 
-  .TwoColumns {
-    max-width: 1000px;
+  .custom-image{
+    max-width: 20vw;
+    margin-left: 5rem;
+  }
+
+  /* Section 1 Hero */
+
+  .HeaderHero{
+    height: 50vh;
   }
 
 }
