@@ -761,9 +761,13 @@ a:hover {
 .app-feature-card__image {
   flex: 1;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .app-feature-card__image img {
-  height: 40vh;
+  max-width: 60%;
+  height: auto; 
 }
 
 .app-feature-card__body {
@@ -779,12 +783,14 @@ a:hover {
 } */
 
 @media only screen and (max-width: 1199px) {
-  .app-feature-card__image {
-    display: none;
-  }
   .app-feature-card {
+    flex-direction: column;
     padding: 0 1rem;
     height: auto;
+    gap:2rem;
+  }
+  .app-feature-card__image img{
+    width: 30vw;
   }
 
   .fifth-panel .card__wide {
@@ -882,6 +888,14 @@ a:hover {
   display: none !important;
 }
 
+/* Responsiveness for small screens */
+
+@media (max-width: 480px) {
+  .app-feature-card__image{
+    display: none;
+  }
+}
+
 
 
 /* Responsiveness for tablets */
@@ -966,10 +980,12 @@ a:hover {
 
 /* Styles for screens larger than 1440px */
 
-@media (min-width: 1440px) {
+@media (min-width: 1920px) {
   .card__description, .SixthPanel .left div, .EightPanel p{
     font-size: 1rem;
   }
-
-  
+  li{
+    font-size: 1.5rem;
+    padding-left: 3rem !important;
+  }
 }
