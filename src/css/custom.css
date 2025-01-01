@@ -981,6 +981,16 @@ a:hover {
   .participation-feature-card__image img{
     width: 50vw;
   }
+
+  /* Section 8 */
+
+  .EightPanel .card__wide{
+    padding: 2rem;
+  }
+
+  .TwoColumns .column.left{
+    align-self: center;
+  }
 }
 
 
