@@ -7,7 +7,7 @@
 
 :root {
   /* Brand colors */
-  --brand: #FEBC59;
+  --brand: #febc59;
 
   /* Dark theme */
   --dark: #282c34;
@@ -20,8 +20,9 @@
 
   /* UI and components */
   --tintColor: #f7f7f7;
-  --rn-note-background: rgba(255, 229, 100, .25);
-  --ifm-font-family-base: "Optimistic Display", system-ui, -apple-system, sans-serif;
+  --rn-note-background: rgba(255, 229, 100, 0.25);
+  --ifm-font-family-base: "Optimistic Display", system-ui, -apple-system,
+    sans-serif;
   --ifm-font-size-base: 17px;
   --ifm-spacing-horizontal: 16px;
   --ifm-menu-link-padding-horizontal: 0;
@@ -33,19 +34,7 @@
   --ifm-blockquote-font-size: 16px;
   --ifm-table-head-color: var(--subtle);
   --ifm-link-hover-decoration: none;
-
 }
-
-/* Navbar */
-/* .navbar {
-  background-color: #2CDD9B;
-  margin-bottom: 4px;
-} */
-
-/* .navbar__item {
-  color: black !important;
-  font-size: 18px;
-} */
 
 .navbar__brand {
   color: var(--brand-color);
@@ -63,15 +52,6 @@
   max-width: 100%;
 }
 
-/* Image */
-.custom-image {
-  width: 140%;
-  max-width: 800px;
-  padding: 10px;
-  right: -130px;
-  opacity: 2.0;
-}
-
 /* Header Hero */
 
 .HeaderHero {
@@ -79,10 +59,6 @@
   margin-top: 4rem;
   margin-bottom: 0;
 }
-
-/* .HeaderHero.light {
-  background-color: #2CDD9B;
-} */
 
 .HeaderHero .TwoColumns .column {
   max-width: initial;
@@ -96,7 +72,7 @@
 }
 
 .HeaderHero .socialLinks .twitter-follow-button,
-.HeaderHero .socialLinks .github-button .slack-button{
+.HeaderHero .socialLinks .github-button .slack-button {
   margin-right: 1rem;
 }
 
@@ -145,11 +121,12 @@
 
 @media only screen and (min-width: 961px) {
   .HeaderHero .TwoColumns {
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 2fr;
   }
 
   .HeaderHero .TwoColumns .column.left {
     padding-right: 0;
+    width: fit-content;
   }
 
   .HeaderHero .TwoColumns .column.right {
@@ -157,7 +134,7 @@
   }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 960px) {
+/* @media only screen and (min-width: 481px) and (max-width: 960px) {
   .HeaderHero .column.first {
     display: flex;
     justify-content: center;
@@ -166,7 +143,7 @@
   .HeaderHero .column.last {
     text-align: center;
   }
-}
+} */
 
 @media only screen and (max-width: 760px) {
   .HeaderHero .title {
@@ -180,15 +157,13 @@
   .HeaderHero .socialLinks {
     margin-top: -2rem;
   }
-  .HeaderHero{
+  .HeaderHero {
     margin-top: 0.5rem;
   }
 }
 
-
 /* Bounce animation- HeaderHero */
 @keyframes bounce {
-
   0%,
   20%,
   50%,
@@ -246,7 +221,7 @@
   position: relative;
   top: -50px;
   left: -65px;
-  opacity: 2.0;
+  opacity: 2;
 }
 
 /* Third Panel */
@@ -257,9 +232,8 @@
   position: relative;
   top: 30px;
   right: -130px;
-  opacity: 2.0;
+  opacity: 2;
 }
-
 
 /* Fourth Panel */
 
@@ -272,7 +246,6 @@
 }
 
 .NativeDevelopment .dissection img {
-  position: absolute;
   left: 0;
   top: 0;
 }
@@ -310,7 +283,7 @@
   position: relative;
   top: -50px;
   left: -120px;
-  opacity: 2.0;
+  opacity: 2;
 }
 
 /* Fifth Panel */
@@ -323,7 +296,7 @@
   width: 75%;
   height: auto;
   position: relative;
-  opacity: 2.0;
+  opacity: 2;
   right: -70px;
   margin-top: 20px;
 }
@@ -331,7 +304,6 @@
 .panel-height {
   height: 50px;
 }
-
 
 .text-column-offset {
   padding-top: 95px;
@@ -347,7 +319,11 @@
 }
 
 /* Correction for the bottom space in section six*/
-#docusaurus_skipToContent_fallback>section.Section.SixthPanel.tint>div>div.column.last.right>div {
+#docusaurus_skipToContent_fallback
+  > section.Section.SixthPanel.tint
+  > div
+  > div.column.last.right
+  > div {
   margin-bottom: 0;
 }
 
@@ -370,7 +346,7 @@
   border-radius: 0;
   font-size: 80%;
   height: 450px;
-  width:fit-content;
+  width: fit-content;
 }
 
 @media only screen and (max-width: 480px) {
@@ -394,7 +370,6 @@
   .SixthPanel .column.last {
     width: 100%;
     padding: 0;
-    background-color: var(--dark);
     height: 28rem;
     overflow-y: scroll;
   }
@@ -417,7 +392,7 @@
     padding-left: 6rem;
   }
 
-  .SixthPanel .TwoColumns{
+  .SixthPanel .TwoColumns {
     margin-left: 8rem;
     margin-right: 8rem;
     justify-content: space-between;
@@ -429,10 +404,10 @@
     padding: 16px 1.5rem;
     height: 460px;
   }
-  .SixthPanel .column.left h2{
+  .SixthPanel .column.left h2 {
     text-align: left;
   }
-  .SixthPanel .column.right .prism-code{
+  .SixthPanel .column.right .prism-code {
     background-color: var(--ifm-color-emphasis-100) !important;
     box-shadow: var(--ifm-navbar-shadow);
   }
@@ -448,7 +423,7 @@
   width: 500%;
   height: auto;
   position: relative;
-  opacity: 2.0;
+  opacity: 2;
 }
 
 .seventh-panel .content {
@@ -493,14 +468,12 @@
   }
 }
 
-
 .eigth-panel-image {
   width: 1000%;
   height: auto;
   position: relative;
-  opacity: 2.0;
+  opacity: 2;
 }
-
 
 /* ActionButton */
 
@@ -513,7 +486,8 @@
   border-bottom: none;
   transition: all 0.2s ease-out;
   max-width: 50%;
-  border-radius: .375rem;
+  border-radius: 0.375rem;
+  margin-right: 10px;
 }
 
 .ActionButton.primary {
@@ -530,7 +504,6 @@
 .ActionButton.secondary {
   color: #1c1e21;
   background-color: #ebedf0;
-  margin-left: 10px;
 }
 
 .ActionButton.secondary:hover {
@@ -560,12 +533,11 @@
     width: 80%;
     padding-top: 60px;
   }
-
 }
 
 /* responsiveness for tablets */
 
-@media only screen and (min-width: 481px) and (max-width: 960px) {
+/* @media only screen and (min-width: 481px) and (max-width: 960px) {
   .ActionButton {
     max-width: 100%;
     width: 100%;
@@ -583,7 +555,7 @@
     padding-top: 6rem;
   }
 
-}
+} */
 
 /* Heading */
 
@@ -613,14 +585,12 @@
   margin-bottom: 5rem;
 }
 
-
 @media only screen and (max-width: 960px) {
-  .Section{
-    margin-bottom:2rem;
+  .Section {
+    margin-bottom: 2rem;
     padding-top: 1rem;
   }
-  
-  }
+}
 
 /* .Section+.Section {
   border-top: 1px solid var(--ifm-table-border-color);
@@ -633,7 +603,6 @@
 .Section.dark {
   background-color: var(--dark);
 }
-
 
 /* Two columns */
 
@@ -655,8 +624,9 @@
 
 @media only screen and (min-width: 961px) {
   .TwoColumns {
-    max-width: 900px;
+    width: 80vw;
     margin: 0 auto;
+    max-width: 900px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "first last";
   }
@@ -679,7 +649,6 @@
 }
 
 @media only screen and (max-width: 960px) {
-
   .TwoColumns,
   .TwoColumns.reverse {
     grid-template-columns: 1fr;
@@ -696,4 +665,3 @@
     padding: 0 1.25rem;
   }
 }
-

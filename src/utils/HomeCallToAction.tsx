@@ -8,18 +8,17 @@ interface HomeCallToActionProps {}
     <>
       <ActionButton
         type="primary"
-        href="https://github.com/PalisadoesFoundation"
+        href="/docs"
         buttonClassName="custom-button"
       >
         Learn More
       </ActionButton>
       <ActionButton
         type="secondary"
-        href="/docs"
-        target="_self"
+        href="https://github.com/PalisadoesFoundation"
         buttonClassName="custom-button"
       >
-        Introduction
+        GitHub
       </ActionButton>
       {/* <ActionButton type="secondary" href="/docs-mobile-user/" target="_self">
         Mobile
