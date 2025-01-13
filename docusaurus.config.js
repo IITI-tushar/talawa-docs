@@ -38,33 +38,33 @@ const config = {
         },
       },
     ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "web-users",
-        path: "docs-web-user",
-        routeBasePath: "docs-web-user",
-        sidebarPath: require.resolve("./sidebar-web-user.js"),
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "mobile-users",
-        path: "docs-mobile-user",
-        routeBasePath: "docs-mobile-user",
-        sidebarPath: require.resolve("./sidebar-mobile-user.js"),
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "admins",
-        path: "docs-admin",
-        routeBasePath: "docs-admin",
-        sidebarPath: require.resolve("./sidebar-admin.js"),
-      },
-    ],
+    // [
+    //   "@docusaurus/plugin-content-docs",
+    //   {
+    //     id: "web-users",
+    //     path: "docs-web-user",
+    //     routeBasePath: "docs-web-user",
+    //     sidebarPath: require.resolve("./sidebar-web-user.js"),
+    //   },
+    // ],
+    // [
+    //   "@docusaurus/plugin-content-docs",
+    //   {
+    //     id: "mobile-users",
+    //     path: "docs-mobile-user",
+    //     routeBasePath: "docs-mobile-user",
+    //     sidebarPath: require.resolve("./sidebar-mobile-user.js"),
+    //   },
+    // ],
+    // [
+    //   "@docusaurus/plugin-content-docs",
+    //   {
+    //     id: "admins",
+    //     path: "docs-admin",
+    //     routeBasePath: "docs-admin",
+    //     sidebarPath: require.resolve("./sidebar-admin.js"),
+    //   },
+    // ],
   ],
   presets: [
     [
