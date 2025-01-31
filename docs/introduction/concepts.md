@@ -75,6 +75,7 @@ It is for this reason that we have two types of Administrators. Administrators a
 
    1. Manage all organizations.
       1. It is a universal privilege. Administrators cannot be selectively assigned to organizations at this time.
+   2. Promote users to Administrator status
 
 2. **API Administrator**: There is only one API Administrator to manage all organizations in a community. API Administrators:
    1. Can promote App User Members to Administrator status.
